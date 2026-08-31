@@ -1,6 +1,6 @@
-import { Retangulo, Circulo } from './formas.js';
+import { Retangulo, Circulo } from "./formas.js";
 
-test('Retangulo calcula a area a partir de largura e altura', () => {
+test("Retangulo calcula a area a partir de largura e altura", () => {
   const retangulo = new Retangulo(4, 5);
   expect(retangulo.calcularArea()).toBe(20);
 
@@ -9,7 +9,7 @@ test('Retangulo calcula a area a partir de largura e altura', () => {
   expect(retangulo.calcularArea()).toBe(20);
 });
 
-test('Circulo calcula a area a partir do raio', () => {
+test("Circulo calcula a area a partir do raio", () => {
   const circulo = new Circulo(2);
   expect(circulo.calcularArea()).toBeCloseTo(Math.PI * 4);
 
